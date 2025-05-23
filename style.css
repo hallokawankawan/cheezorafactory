@@ -1,0 +1,52 @@
+
+.container {    
+    background: #f7be0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+form {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #f7be0b;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 3vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 1em;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:#f5f2b3; I
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1em;
+    transition: all 0.5s;
+}
+
+form input:focus, form textarea:focus {
+    background:#eeeeee;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    padding: 0.8em;
+    background:#04383f;
+    color: #fff;
+    font-size: 1.2em;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 10em;
+    margin: 10px auto 0;
+    border-radius: 2em;
+}
